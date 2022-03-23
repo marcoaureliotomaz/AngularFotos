@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'alurapic';
+  url ='http://www.uptimecont.com.br/wp-content/uploads/2019/04/malha-fina-saiba-como-nao-ser-pego-pelo-leao.jpg';
+  description ='Leão';
 }
