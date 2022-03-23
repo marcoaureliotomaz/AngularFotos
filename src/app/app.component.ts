@@ -20,6 +20,10 @@ export class AppComponent {
     {
       url:'https://www.drtoysegames.com.br/image/cache/catalog/Bandai/ClothLibraEx/01-libra-dokko-1000x1000.jpg',
       description:'Cavaleiro de Ouro de Libra'
+    },
+    {
+      url:'https://ae01.alicdn.com/kf/HTB14jNvbv1H3KVjSZFHq6zKppXa5.jpg',
+      description:'Cavaleiro de Ouro de Câncer'
     }
   ]
 
