@@ -1,5 +1,8 @@
+import { ErrorsModule } from './errors/errors.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModude } from './app.routing.module';
 import { AppComponent } from './app.component';
 import { PhotosModule } from './photos/photos.module';
 
@@ -10,7 +13,10 @@ import { PhotosModule } from './photos/photos.module';
   ],
   imports: [
     BrowserModule,
-    PhotosModule
+    PhotosModule,
+    AppRoutingModude,
+    RouterModule,
+    ErrorsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
